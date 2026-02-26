@@ -1,9 +1,9 @@
 import "./globals.css";
 
 // component imports (must be at the top)
-import Navbar from "./components/Navbar.jsx";
-import Footer from "./components/Footer.jsx";
-import ChatWidget from "./components/ChatWidget.jsx";
+import Navbar from "@/components/layout/Navbar.jsx";
+import Footer from "@/components/layout/Footer.jsx";
+import ChatWidget from "@/components/ChatWidget.jsx";
 
 export const metadata = {
   title: "TechXcel Partners",
