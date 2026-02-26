@@ -1,0 +1,12 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <style>
+      .indigo { fill: #3f51b5; }
+      .gold { fill: #ffd700; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="128" height="128" fill="none"/>
+  <path class="indigo" d="M20 36h88l-14 14H74v42H54V50H34z"/>
+  <path class="gold" d="M64 92l20 20H44z"/>
+</svg>
