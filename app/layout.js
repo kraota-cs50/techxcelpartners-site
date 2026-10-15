@@ -16,30 +16,39 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const siteTitle = "TechXcel Partners | Agentic AI & Digital Transformation Consulting";
+const siteDescription =
+  "Carlos Blanco helps organizations move AI from pilots to real results: agentic AI workflows with Claude, Cursor, and Databricks Genie, process mapping, and change management. 20+ years at Disney, Fox, and NBCUniversal, plus deep JD Edwards ERP experience.";
+
 export const metadata = {
-  title: "Carlos Blanco — Senior Product Manager | Product Strategy & AI Adoption",
-  description:
-    "Senior Product Manager and Business Analyst with a track record across Disney, Fox, and NBCUniversal. Specializing in product strategy, workflow transformation, and AI adoption.",
+  metadataBase: new URL("https://techxcelpartners.com"),
+  title: siteTitle,
+  description: siteDescription,
   keywords: [
+    "Agentic AI",
+    "AI Consulting",
+    "Digital Transformation",
+    "AI Adoption",
     "Product Manager",
     "Business Analyst",
-    "Product Strategy",
-    "AI Adoption",
-    "Workflow Transformation",
-    "Digital Asset Management",
+    "Databricks Genie",
+    "Claude",
+    "Cursor",
+    "JD Edwards",
+    "ERP",
+    "Supply Chain",
   ],
   openGraph: {
-    title: "Carlos Blanco — Senior Product Manager | Product Strategy & AI Adoption",
-    description:
-      "Senior Product Manager and Business Analyst with a track record across Disney, Fox, and NBCUniversal. Specializing in product strategy, workflow transformation, and AI adoption.",
+    title: siteTitle,
+    description: siteDescription,
+    url: "https://techxcelpartners.com",
     type: "website",
     siteName: "TechXcel Partners",
   },
   twitter: {
-    card: "summary",
-    title: "Carlos Blanco — Senior Product Manager | Product Strategy & AI Adoption",
-    description:
-      "Senior Product Manager and Business Analyst with a track record across Disney, Fox, and NBCUniversal. Specializing in product strategy, workflow transformation, and AI adoption.",
+    card: "summary_large_image",
+    title: siteTitle,
+    description: siteDescription,
   },
 };
 
